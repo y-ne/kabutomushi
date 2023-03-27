@@ -4,10 +4,10 @@
 
 " Kabutomushi is a serious and well-mannered girl who thinks of herself as the strongest. "
 
-# Overview
+## Overview
 Too Lazy to write, will do later
 
-# Change Board Name
+## Change Board Name
 /etc/rc.local
 ```
 echo "kuu's Development Board" > /tmp/sysinfo/model
