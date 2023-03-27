@@ -8,7 +8,7 @@
 Too Lazy to write, will do later
 
 ## Change Board Name
-put on rc.local
+/etc/rc.local
 ```
 echo "kuu's Development Board" > /tmp/sysinfo/model
 ```
