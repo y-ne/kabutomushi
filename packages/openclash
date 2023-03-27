@@ -1,0 +1,19 @@
+# Please Crosscheck on official github
+# https://github.com/vernesong/OpenClash
+
+# iptables
+opkg install coreutils-nohup bash iptables dnsmasq-full curl ca-certificates ipset ip-full iptables-mod-tproxy iptables-mod-extra libcap libcap-bin ruby ruby-yaml kmod-tun kmod-inet-diag unzip luci-compat luci luci-base
+
+# nftables
+opkg install coreutils-nohup bash dnsmasq-full curl ca-certificates ipset ip-full libcap libcap-bin ruby ruby-yaml kmod-tun kmod-inet-diag unzip kmod-nft-tproxy luci-compat luci luci-base
+
+# if dnsmasq-full cannot be installed
+opkg remove dnsmasq
+opkg install dnsmasq-full
+
+# ipk
+# https://github.com/vernesong/OpenClash/releases/tag/v0.45.103-beta
+# Download then upload to router
+
+# install
+opkg install luci-app-openclash_0.45.103-beta_all.ipk
