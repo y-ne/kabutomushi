@@ -7,6 +7,11 @@
 ## Overview
 Too Lazy to write, will do later
 
+## Screenshoot
+<b>Login Page</b>
+
+<img src="https://github.com/akumakumu/kabutomushi/blob/main/pictures/login-page.png">
+
 ## Change Board Name
 /etc/rc.local
 ```
