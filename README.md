@@ -2,10 +2,19 @@
 
 <img src="https://github.com/akumakumu/kabutomushi/blob/main/pictures/kabutomushi.png">
 
+## Introduction
 " Kabutomushi is a serious and well-mannered girl who thinks of herself as the strongest. "
 
-## Introduction
-Too Lazy to write, will do later
+## Login Details
+
+| (*/ω＼) | ⊂((・▽・))⊃ |
+| :---: | :---: |
+| `IP Address` | 192.168.1.1 |
+| `Username` | root |
+| `Password` | gardens |
+| `SSID` | Kabutomushi |
+| `Security Key` | littlegardens |
+
 
 ## Screenshoot
 <b>Login Page</b>
