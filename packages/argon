@@ -1,0 +1,2 @@
+# module 'luci.model.ipkg' not found
+opkg install luci-lib-ipkg
