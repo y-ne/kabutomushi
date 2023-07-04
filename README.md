@@ -27,6 +27,13 @@
 
 ## Change Board Name
 /etc/rc.local
+
 ```
 echo "kuu's Development Board" > /tmp/sysinfo/model
+```
+
+## ttyd ZSH Auto Login
+
+```
+/bin/login -f root
 ```
