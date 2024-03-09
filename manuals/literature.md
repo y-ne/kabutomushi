@@ -18,6 +18,8 @@ echo "kuu's Development Board" > /tmp/sysinfo/model
 ```
 
 ### TTL
+Refers to :
+<https://forum.openwrt.org/t/working-nftables-rule-for-ttl-in-22-03/144838>
 
 ```c
 // Specify TTL (time to live) for niche provider plan
@@ -38,6 +40,7 @@ chain mangle_prerouting_ttl65 {
 }
 
 // TTL 65 with specific interface
+// Remove the bracket {} if using only one interface
 chain mangle_postrouting_ttl65 {
     type filter hook postrouting priority 300; policy accept;
     oifname { "usb0", "wwan0", "eth1" } counter ip ttl set 65
