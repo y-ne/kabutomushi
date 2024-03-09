@@ -24,16 +24,3 @@
 <b>Overview</b>
 
 <img src="https://github.com/akumakumu/kabutomushi/blob/main/pictures/overview.png">
-
-## Change Board Name
-/etc/rc.local
-
-```
-echo "kuu's Development Board" > /tmp/sysinfo/model
-```
-
-## ttyd ZSH Auto Login
-
-```
-/bin/login -f root
-```
