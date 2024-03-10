@@ -1,5 +1,0 @@
-# Add My Opkg Repo first
-
-opkg install luci-app-passwall
-
-opkg install v2ray-extra v2ray-geoip v2ray-geosite v2ray-ctl xray-geodata

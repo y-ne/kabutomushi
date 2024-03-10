@@ -1,3 +1,0 @@
-https://openwrt.org/packages/pkgdata/luci-app-ttyd
-
-opkg install luci-app-ttyd
