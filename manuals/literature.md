@@ -9,6 +9,17 @@
 echo "kuu's Development Board" > /tmp/sysinfo/model
 ```
 
+### Custom Mirror
+
+```c
+// Radenku custom repository
+sed -i 's/option check_signature/# option check_signature/g' /etc/opkg.conf
+
+echo "src/gz custom_generic https://raw.githubusercontent.com/lrdrdn/my-opkg-repo/main/generic" >> /etc/opkg/customfeeds.conf
+
+echo "src/gz custom_arch https://raw.githubusercontent.com/lrdrdn/my-opkg-repo/main/$(grep "OPENWRT_ARCH" /etc/os-release | awk -F '"' '{print $2}')" >> /etc/opkg/customfeeds.conf
+```
+
 ### TTY
 
 ```c

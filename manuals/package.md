@@ -50,7 +50,7 @@ It still private repo that build by radenku, will refer to the official as soon 
 
 ```c
 // Add radenku's repository
-// Please read customfeeds
+// Please read custom mirrors on literature
 
 // Installing the package
 opkg install luci-app-passwall
