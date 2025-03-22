@@ -2,7 +2,7 @@
 
 ### Package Manager related
 
-```c
+```bash
 // Update the package mirror
 opkg update
 
@@ -15,9 +15,15 @@ opkg remove <package-name>
 
 ### Restart Firewall4
 
-```c
+```bash
 // same function, choose one
 fw4 reload
 service firewall reload
 /etc/init.d/firewall reload
+```
+
+### Sending AT commands via serial to a modem
+
+```bash
+picocom --echo -b 9600 /dev/ttyUSB0
 ```
